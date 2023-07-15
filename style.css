@@ -1,0 +1,47 @@
+body{
+    background-color:lightcoral
+}
+
+h1{
+    background-color:white;
+    color:blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-size:25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#show_sketch{
+    float:right;
+}
+
+#score{
+    margin-left:20px;
+    font-size:25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#timer{
+    margin-right:20px;
+    float:right;
+    font-size:25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+canvas{
+    border-radius:20px;
+    border: solid 5px white;
+    margin-top: 100px;
+    box-shadow: 3px 3px 38px white;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 36px grey;}
+    to{box-shadow: 1px 1px 36px white;}
+}
+
